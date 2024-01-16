@@ -1,0 +1,122 @@
+.hidden {
+    display: none;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+  }
+  html, body {
+     margin: 0; 
+     height: 100%; 
+     overflow: hidden;
+    }
+  
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    
+  }
+  #login-form {
+    text-align: center;
+  }
+  #login-form > input {
+      width: 20%;
+      height: 50px;
+      font-size: 150%;
+      color: white;
+      border-bottom: 2px solid;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      background: transparent;
+      outline: none;
+      margin-left: 30px;
+  }
+  #todo-form {
+    text-align: center;
+  }
+  #todo-form > input {
+      width: 25%;
+      height: 50px;
+      font-size: 150%;
+      color: white;
+      border-bottom: 2px solid;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      background: transparent;
+      outline: none;
+      margin-left: 30px;
+  }
+  
+  #login-form{
+    text-align: center;
+  }
+  #login-form > input::placeholder{
+    color: white;
+    text-align: center;
+  }
+  
+  #todo-form > input::placeholder{
+    color: white;
+    text-align: center;
+  }
+  
+  #weather{
+    position: relative;
+    text-align: right;
+    margin-right: 30px;
+    color: white;
+  }
+  
+
+  #clock{
+    text-align: center;
+    height:260px;
+    font-size:8rem;
+    margin:10px;
+    color:white;    
+    padding:-100px;
+}
+  #quote{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  #todo-list{
+    position: absolute;
+    width: 200px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 2.0;
+    color: white;
+    margin-left: 30px;
+    top: auto;
+    left : 30%
+  }
+  #greeting {
+    text-align: center;
+  }
+
+
+  .centerItem {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+
+
+  
